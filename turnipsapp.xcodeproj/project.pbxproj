@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBB24F0B29DD72FE0022701B /* turnipsappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB24F0A29DD72FE0022701B /* turnipsappApp.swift */; };
+		FBB24F0D29DD72FE0022701B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB24F0C29DD72FE0022701B /* ContentView.swift */; };
+		FBB24F0F29DD72FF0022701B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB24F0E29DD72FF0022701B /* Assets.xcassets */; };
+		FBB24F1229DD72FF0022701B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB24F1129DD72FF0022701B /* Preview Assets.xcassets */; };
+		FBB24F1C29DD72FF0022701B /* turnipsappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB24F1B29DD72FF0022701B /* turnipsappTests.swift */; };
+		FBB24F2629DD72FF0022701B /* turnipsappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB24F2529DD72FF0022701B /* turnipsappUITests.swift */; };
+		FBB24F2829DD72FF0022701B /* turnipsappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB24F2729DD72FF0022701B /* turnipsappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBB24F1829DD72FF0022701B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB24EFF29DD72FE0022701B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB24F0629DD72FE0022701B;
+			remoteInfo = turnipsapp;
+		};
+		FBB24F2229DD72FF0022701B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB24EFF29DD72FE0022701B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB24F0629DD72FE0022701B;
+			remoteInfo = turnipsapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBB24F0729DD72FE0022701B /* turnipsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = turnipsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB24F0A29DD72FE0022701B /* turnipsappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turnipsappApp.swift; sourceTree = "<group>"; };
+		FBB24F0C29DD72FE0022701B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBB24F0E29DD72FF0022701B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBB24F1129DD72FF0022701B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBB24F1729DD72FF0022701B /* turnipsappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = turnipsappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB24F1B29DD72FF0022701B /* turnipsappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turnipsappTests.swift; sourceTree = "<group>"; };
+		FBB24F2129DD72FF0022701B /* turnipsappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = turnipsappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB24F2529DD72FF0022701B /* turnipsappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turnipsappUITests.swift; sourceTree = "<group>"; };
+		FBB24F2729DD72FF0022701B /* turnipsappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turnipsappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBB24F0429DD72FE0022701B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB24F1429DD72FF0022701B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB24F1E29DD72FF0022701B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBB24EFE29DD72FE0022701B = {
+			isa = PBXGroup;
+			children = (
+				FBB24F0929DD72FE0022701B /* turnipsapp */,
+				FBB24F1A29DD72FF0022701B /* turnipsappTests */,
+				FBB24F2429DD72FF0022701B /* turnipsappUITests */,
+				FBB24F0829DD72FE0022701B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBB24F0829DD72FE0022701B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBB24F0729DD72FE0022701B /* turnipsapp.app */,
+				FBB24F1729DD72FF0022701B /* turnipsappTests.xctest */,
+				FBB24F2129DD72FF0022701B /* turnipsappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBB24F0929DD72FE0022701B /* turnipsapp */ = {
+			isa = PBXGroup;
+			children = (
+				FBB24F0A29DD72FE0022701B /* turnipsappApp.swift */,
+				FBB24F0C29DD72FE0022701B /* ContentView.swift */,
+				FBB24F0E29DD72FF0022701B /* Assets.xcassets */,
+				FBB24F1029DD72FF0022701B /* Preview Content */,
+			);
+			path = turnipsapp;
+			sourceTree = "<group>";
+		};
+		FBB24F1029DD72FF0022701B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBB24F1129DD72FF0022701B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBB24F1A29DD72FF0022701B /* turnipsappTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBB24F1B29DD72FF0022701B /* turnipsappTests.swift */,
+			);
+			path = turnipsappTests;
+			sourceTree = "<group>";
+		};
+		FBB24F2429DD72FF0022701B /* turnipsappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBB24F2529DD72FF0022701B /* turnipsappUITests.swift */,
+				FBB24F2729DD72FF0022701B /* turnipsappUITestsLaunchTests.swift */,
+			);
+			path = turnipsappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBB24F0629DD72FE0022701B /* turnipsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB24F2B29DD72FF0022701B /* Build configuration list for PBXNativeTarget "turnipsapp" */;
+			buildPhases = (
+				FBB24F0329DD72FE0022701B /* Sources */,
+				FBB24F0429DD72FE0022701B /* Frameworks */,
+				FBB24F0529DD72FE0022701B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = turnipsapp;
+			productName = turnipsapp;
+			productReference = FBB24F0729DD72FE0022701B /* turnipsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBB24F1629DD72FF0022701B /* turnipsappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB24F2E29DD72FF0022701B /* Build configuration list for PBXNativeTarget "turnipsappTests" */;
+			buildPhases = (
+				FBB24F1329DD72FF0022701B /* Sources */,
+				FBB24F1429DD72FF0022701B /* Frameworks */,
+				FBB24F1529DD72FF0022701B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBB24F1929DD72FF0022701B /* PBXTargetDependency */,
+			);
+			name = turnipsappTests;
+			productName = turnipsappTests;
+			productReference = FBB24F1729DD72FF0022701B /* turnipsappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBB24F2029DD72FF0022701B /* turnipsappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB24F3129DD72FF0022701B /* Build configuration list for PBXNativeTarget "turnipsappUITests" */;
+			buildPhases = (
+				FBB24F1D29DD72FF0022701B /* Sources */,
+				FBB24F1E29DD72FF0022701B /* Frameworks */,
+				FBB24F1F29DD72FF0022701B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBB24F2329DD72FF0022701B /* PBXTargetDependency */,
+			);
+			name = turnipsappUITests;
+			productName = turnipsappUITests;
+			productReference = FBB24F2129DD72FF0022701B /* turnipsappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBB24EFF29DD72FE0022701B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FBB24F0629DD72FE0022701B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FBB24F1629DD72FF0022701B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FBB24F0629DD72FE0022701B;
+					};
+					FBB24F2029DD72FF0022701B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FBB24F0629DD72FE0022701B;
+					};
+				};
+			};
+			buildConfigurationList = FBB24F0229DD72FE0022701B /* Build configuration list for PBXProject "turnipsapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBB24EFE29DD72FE0022701B;
+			productRefGroup = FBB24F0829DD72FE0022701B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBB24F0629DD72FE0022701B /* turnipsapp */,
+				FBB24F1629DD72FF0022701B /* turnipsappTests */,
+				FBB24F2029DD72FF0022701B /* turnipsappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBB24F0529DD72FE0022701B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB24F1229DD72FF0022701B /* Preview Assets.xcassets in Resources */,
+				FBB24F0F29DD72FF0022701B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB24F1529DD72FF0022701B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB24F1F29DD72FF0022701B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBB24F0329DD72FE0022701B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB24F0D29DD72FE0022701B /* ContentView.swift in Sources */,
+				FBB24F0B29DD72FE0022701B /* turnipsappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB24F1329DD72FF0022701B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB24F1C29DD72FF0022701B /* turnipsappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB24F1D29DD72FF0022701B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB24F2829DD72FF0022701B /* turnipsappUITestsLaunchTests.swift in Sources */,
+				FBB24F2629DD72FF0022701B /* turnipsappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBB24F1929DD72FF0022701B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBB24F0629DD72FE0022701B /* turnipsapp */;
+			targetProxy = FBB24F1829DD72FF0022701B /* PBXContainerItemProxy */;
+		};
+		FBB24F2329DD72FF0022701B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBB24F0629DD72FE0022701B /* turnipsapp */;
+			targetProxy = FBB24F2229DD72FF0022701B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FBB24F2929DD72FF0022701B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBB24F2A29DD72FF0022701B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBB24F2C29DD72FF0022701B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"turnipsapp/Preview Content\"";
+				DEVELOPMENT_TEAM = W2X455W23A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lookatonion.ru.turnipsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBB24F2D29DD72FF0022701B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"turnipsapp/Preview Content\"";
+				DEVELOPMENT_TEAM = W2X455W23A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lookatonion.ru.turnipsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBB24F2F29DD72FF0022701B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2X455W23A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lookatonion.ru.turnipsappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/turnipsapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/turnipsapp";
+			};
+			name = Debug;
+		};
+		FBB24F3029DD72FF0022701B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2X455W23A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lookatonion.ru.turnipsappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/turnipsapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/turnipsapp";
+			};
+			name = Release;
+		};
+		FBB24F3229DD72FF0022701B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2X455W23A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lookatonion.ru.turnipsappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = turnipsapp;
+			};
+			name = Debug;
+		};
+		FBB24F3329DD72FF0022701B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2X455W23A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lookatonion.ru.turnipsappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = turnipsapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBB24F0229DD72FE0022701B /* Build configuration list for PBXProject "turnipsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB24F2929DD72FF0022701B /* Debug */,
+				FBB24F2A29DD72FF0022701B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB24F2B29DD72FF0022701B /* Build configuration list for PBXNativeTarget "turnipsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB24F2C29DD72FF0022701B /* Debug */,
+				FBB24F2D29DD72FF0022701B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB24F2E29DD72FF0022701B /* Build configuration list for PBXNativeTarget "turnipsappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB24F2F29DD72FF0022701B /* Debug */,
+				FBB24F3029DD72FF0022701B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB24F3129DD72FF0022701B /* Build configuration list for PBXNativeTarget "turnipsappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB24F3229DD72FF0022701B /* Debug */,
+				FBB24F3329DD72FF0022701B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBB24EFF29DD72FE0022701B /* Project object */;
+}
