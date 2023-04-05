@@ -8,19 +8,49 @@
 import SwiftUI
 
 struct ContentView: View {
+    var scenarios = [
+        Scenario(title: "S1"),
+        Scenario(title: "S@"),
+        Scenario(title: "S321"),
+        Scenario(title: "S1123"),
+    ]
+    var scenariosF = [
+        Scenario(title: "S1"),
+        Scenario(title: "S@"),
+    ]
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            ScenariosView(scenarios: scenariosF, title: "Мои спектакли")
+                    .tabItem {
+                        Image(systemName: "star")
+                        Text("Мои спектакли")
+                    }
+            ScenariosView(scenarios: scenarios, title: "Спектакли")
+                    .tabItem {
+                        Image(systemName: "list.bullet")
+                        Text("Спектакли")
+                    }
+
+            ConfigurationView().padding()
+                    .tabItem {
+                        Image(systemName: "gear")
+                        Text("Настройки")
+                    }
+
         }
-        .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+class ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+
+    #if DEBUG
+    @objc class func injected() {
+        let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
+        windowScene?.windows.first?.rootViewController =
+                UIHostingController(rootView: ContentView())
+    }
+    #endif
 }

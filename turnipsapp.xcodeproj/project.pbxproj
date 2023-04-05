@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65F993EEE055E2243B6503E7 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F99113A9B8C14932BC9102 /* Speech.swift */; };
+		65F994138DEBC44F2715718F /* ScenariosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F9916DF0EDD6B0DCCF53D2 /* ScenariosView.swift */; };
+		65F99B463B6EBC5EF44678C3 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F99015D655768402BECE81 /* Scenario.swift */; };
 		FBB24F0B29DD72FE0022701B /* turnipsappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB24F0A29DD72FE0022701B /* turnipsappApp.swift */; };
 		FBB24F0D29DD72FE0022701B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB24F0C29DD72FE0022701B /* ContentView.swift */; };
 		FBB24F0F29DD72FF0022701B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB24F0E29DD72FF0022701B /* Assets.xcassets */; };
@@ -14,6 +17,7 @@
 		FBB24F1C29DD72FF0022701B /* turnipsappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB24F1B29DD72FF0022701B /* turnipsappTests.swift */; };
 		FBB24F2629DD72FF0022701B /* turnipsappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB24F2529DD72FF0022701B /* turnipsappUITests.swift */; };
 		FBB24F2829DD72FF0022701B /* turnipsappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB24F2729DD72FF0022701B /* turnipsappUITestsLaunchTests.swift */; };
+		FBB24F3529DD756C0022701B /* ConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB24F3429DD756C0022701B /* ConfigurationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65F99015D655768402BECE81 /* Scenario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
+		65F99113A9B8C14932BC9102 /* Speech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
+		65F9916DF0EDD6B0DCCF53D2 /* ScenariosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenariosView.swift; sourceTree = "<group>"; };
 		FBB24F0729DD72FE0022701B /* turnipsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = turnipsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB24F0A29DD72FE0022701B /* turnipsappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turnipsappApp.swift; sourceTree = "<group>"; };
 		FBB24F0C29DD72FE0022701B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,7 @@
 		FBB24F2129DD72FF0022701B /* turnipsappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = turnipsappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB24F2529DD72FF0022701B /* turnipsappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turnipsappUITests.swift; sourceTree = "<group>"; };
 		FBB24F2729DD72FF0022701B /* turnipsappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turnipsappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBB24F3429DD756C0022701B /* ConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65F99DF3DAC87F8B8248FFE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65F99015D655768402BECE81 /* Scenario.swift */,
+				65F99113A9B8C14932BC9102 /* Speech.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FBB24EFE29DD72FE0022701B = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +115,9 @@
 				FBB24F0C29DD72FE0022701B /* ContentView.swift */,
 				FBB24F0E29DD72FF0022701B /* Assets.xcassets */,
 				FBB24F1029DD72FF0022701B /* Preview Content */,
+				FBB24F3429DD756C0022701B /* ConfigurationView.swift */,
+				65F99DF3DAC87F8B8248FFE1 /* Model */,
+				65F9916DF0EDD6B0DCCF53D2 /* ScenariosView.swift */,
 			);
 			path = turnipsapp;
 			sourceTree = "<group>";
@@ -190,6 +210,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
@@ -258,7 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB24F0D29DD72FE0022701B /* ContentView.swift in Sources */,
+				FBB24F3529DD756C0022701B /* ConfigurationView.swift in Sources */,
 				FBB24F0B29DD72FE0022701B /* turnipsappApp.swift in Sources */,
+				65F99B463B6EBC5EF44678C3 /* Scenario.swift in Sources */,
+				65F993EEE055E2243B6503E7 /* Speech.swift in Sources */,
+				65F994138DEBC44F2715718F /* ScenariosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +376,8 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -402,6 +431,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+				);
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
