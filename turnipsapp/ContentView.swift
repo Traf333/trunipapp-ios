@@ -19,24 +19,27 @@ struct ContentView: View {
         Scenario(title: "S@"),
     ]
     var body: some View {
-        TabView {
-            ScenariosView(scenarios: scenariosF, title: "Мои спектакли")
-                    .tabItem {
-                        Image(systemName: "star")
-                        Text("Мои спектакли")
-                    }
-            ScenariosView(scenarios: scenarios, title: "Спектакли")
-                    .tabItem {
-                        Image(systemName: "list.bullet")
-                        Text("Спектакли")
-                    }
+        ZStack {
+            Color(.systemTeal).ignoresSafeArea()
+            TabView {
+                ScenariosView(scenarios: scenariosF, title: "Мои спектакли")
+                        .tabItem {
+                            Image(systemName: "star")
+                            Text("Мои спектакли")
+                        }
+                ScenariosView(scenarios: scenarios, title: "Спектакли")
+                        .tabItem {
+                            Image(systemName: "list.bullet")
+                            Text("Спектакли")
+                        }
 
-            ConfigurationView().padding()
-                    .tabItem {
-                        Image(systemName: "gear")
-                        Text("Настройки")
-                    }
+                ConfigurationView().padding()
+                        .tabItem {
+                            Image(systemName: "gear")
+                            Text("Настройки")
+                        }
 
+            }
         }
     }
 }
