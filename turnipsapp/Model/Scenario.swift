@@ -7,5 +7,6 @@ import Foundation
 struct Scenario: Identifiable, Codable {
     var id = UUID()
     var title: String
-    var speeches = [Speech]()
+    var filepath = ""
+//    var speeches = [Speech]()
 }

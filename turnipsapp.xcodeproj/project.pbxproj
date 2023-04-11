@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65F993EEE055E2243B6503E7 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F99113A9B8C14932BC9102 /* Speech.swift */; };
 		65F994138DEBC44F2715718F /* ScenariosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F9916DF0EDD6B0DCCF53D2 /* ScenariosView.swift */; };
 		65F99B463B6EBC5EF44678C3 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F99015D655768402BECE81 /* Scenario.swift */; };
+		FB2BE97729E59054004272E4 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB2BE97529E59054004272E4 /* DataModel.xcdatamodeld */; };
+		FB2BE97929E590E3004272E4 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2BE97829E590E3004272E4 /* DataController.swift */; };
+		FB9B3E3329E2103200540266 /* spolier.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB9B3E2E29E2103200540266 /* spolier.txt */; };
+		FB9B3E3429E2103200540266 /* lestnitsa.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB9B3E2F29E2103200540266 /* lestnitsa.txt */; };
+		FB9B3E3529E2103200540266 /* abe_kob.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB9B3E3029E2103200540266 /* abe_kob.txt */; };
+		FB9B3E3629E2103200540266 /* kabini.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB9B3E3129E2103200540266 /* kabini.txt */; };
+		FB9B3E3729E2103200540266 /* proizvodstvo.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB9B3E3229E2103200540266 /* proizvodstvo.txt */; };
+		FB9B3E3B29E21A3000540266 /* ScenarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B3E3A29E21A3000540266 /* ScenarioView.swift */; };
+		FB9B3E3E29E21C3A00540266 /* ScenariosModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9B3E3D29E21C3A00540266 /* ScenariosModelView.swift */; };
 		FBB24F0B29DD72FE0022701B /* turnipsappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB24F0A29DD72FE0022701B /* turnipsappApp.swift */; };
 		FBB24F0D29DD72FE0022701B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB24F0C29DD72FE0022701B /* ContentView.swift */; };
 		FBB24F0F29DD72FF0022701B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB24F0E29DD72FF0022701B /* Assets.xcassets */; };
@@ -39,8 +47,16 @@
 
 /* Begin PBXFileReference section */
 		65F99015D655768402BECE81 /* Scenario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
-		65F99113A9B8C14932BC9102 /* Speech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
 		65F9916DF0EDD6B0DCCF53D2 /* ScenariosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenariosView.swift; sourceTree = "<group>"; };
+		FB2BE97629E59054004272E4 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		FB2BE97829E590E3004272E4 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		FB9B3E2E29E2103200540266 /* spolier.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = spolier.txt; path = ../../../../Downloads/spolier.txt; sourceTree = "<group>"; };
+		FB9B3E2F29E2103200540266 /* lestnitsa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = lestnitsa.txt; path = ../../../../Downloads/lestnitsa.txt; sourceTree = "<group>"; };
+		FB9B3E3029E2103200540266 /* abe_kob.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = abe_kob.txt; path = ../../../../Downloads/abe_kob.txt; sourceTree = "<group>"; };
+		FB9B3E3129E2103200540266 /* kabini.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = kabini.txt; path = ../../../../Downloads/kabini.txt; sourceTree = "<group>"; };
+		FB9B3E3229E2103200540266 /* proizvodstvo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = proizvodstvo.txt; path = ../../../../Downloads/proizvodstvo.txt; sourceTree = "<group>"; };
+		FB9B3E3A29E21A3000540266 /* ScenarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenarioView.swift; sourceTree = "<group>"; };
+		FB9B3E3D29E21C3A00540266 /* ScenariosModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenariosModelView.swift; sourceTree = "<group>"; };
 		FBB24F0729DD72FE0022701B /* turnipsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = turnipsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB24F0A29DD72FE0022701B /* turnipsappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turnipsappApp.swift; sourceTree = "<group>"; };
 		FBB24F0C29DD72FE0022701B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,9 +99,38 @@
 			isa = PBXGroup;
 			children = (
 				65F99015D655768402BECE81 /* Scenario.swift */,
-				65F99113A9B8C14932BC9102 /* Speech.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FB9B3E2D29E2100300540266 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B3E3029E2103200540266 /* abe_kob.txt */,
+				FB9B3E2F29E2103200540266 /* lestnitsa.txt */,
+				FB9B3E3129E2103200540266 /* kabini.txt */,
+				FB9B3E2E29E2103200540266 /* spolier.txt */,
+				FB9B3E3229E2103200540266 /* proizvodstvo.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB9B3E3829E213C900540266 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B3E3929E213D400540266 /* Scenarios */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FB9B3E3929E213D400540266 /* Scenarios */ = {
+			isa = PBXGroup;
+			children = (
+				65F9916DF0EDD6B0DCCF53D2 /* ScenariosView.swift */,
+				FB9B3E3A29E21A3000540266 /* ScenarioView.swift */,
+				FB9B3E3D29E21C3A00540266 /* ScenariosModelView.swift */,
+			);
+			path = Scenarios;
 			sourceTree = "<group>";
 		};
 		FBB24EFE29DD72FE0022701B = {
@@ -111,13 +156,16 @@
 		FBB24F0929DD72FE0022701B /* turnipsapp */ = {
 			isa = PBXGroup;
 			children = (
+				FB2BE97529E59054004272E4 /* DataModel.xcdatamodeld */,
+				FB2BE97829E590E3004272E4 /* DataController.swift */,
+				FB9B3E3829E213C900540266 /* Features */,
+				FB9B3E2D29E2100300540266 /* Resources */,
 				FBB24F0A29DD72FE0022701B /* turnipsappApp.swift */,
 				FBB24F0C29DD72FE0022701B /* ContentView.swift */,
 				FBB24F0E29DD72FF0022701B /* Assets.xcassets */,
 				FBB24F1029DD72FF0022701B /* Preview Content */,
 				FBB24F3429DD756C0022701B /* ConfigurationView.swift */,
 				65F99DF3DAC87F8B8248FFE1 /* Model */,
-				65F9916DF0EDD6B0DCCF53D2 /* ScenariosView.swift */,
 			);
 			path = turnipsapp;
 			sourceTree = "<group>";
@@ -254,8 +302,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9B3E3429E2103200540266 /* lestnitsa.txt in Resources */,
 				FBB24F1229DD72FF0022701B /* Preview Assets.xcassets in Resources */,
+				FB9B3E3529E2103200540266 /* abe_kob.txt in Resources */,
+				FB9B3E3329E2103200540266 /* spolier.txt in Resources */,
+				FB9B3E3629E2103200540266 /* kabini.txt in Resources */,
 				FBB24F0F29DD72FF0022701B /* Assets.xcassets in Resources */,
+				FB9B3E3729E2103200540266 /* proizvodstvo.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +334,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB24F0D29DD72FE0022701B /* ContentView.swift in Sources */,
+				FB2BE97729E59054004272E4 /* DataModel.xcdatamodeld in Sources */,
+				FB9B3E3B29E21A3000540266 /* ScenarioView.swift in Sources */,
 				FBB24F3529DD756C0022701B /* ConfigurationView.swift in Sources */,
 				FBB24F0B29DD72FE0022701B /* turnipsappApp.swift in Sources */,
+				FB2BE97929E590E3004272E4 /* DataController.swift in Sources */,
 				65F99B463B6EBC5EF44678C3 /* Scenario.swift in Sources */,
-				65F993EEE055E2243B6503E7 /* Speech.swift in Sources */,
+				FB9B3E3E29E21C3A00540266 /* ScenariosModelView.swift in Sources */,
 				65F994138DEBC44F2715718F /* ScenariosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,8 +432,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-				);
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -431,8 +486,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				OTHER_LDFLAGS = (
-				);
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -614,6 +668,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB2BE97529E59054004272E4 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB2BE97629E59054004272E4 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = FB2BE97629E59054004272E4 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FBB24EFF29DD72FE0022701B /* Project object */;
 }
